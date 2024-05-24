@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf8">
+<title>
+2º pagina
+</title>  <!-- http://www.ralphalmeida.com/padrao/otimos-efeitos-de-transicao-de-imagens-em-jquery-coin-slider/ -->
+
+<script type="text/javascript"  src="../js/jquery.js"></script>
+<script type="text/javascript"  src="../js/coin-slider.min.js"></script>
+<link rel="stylesheet" href="../css/coin-slider-styles.css" type="text/css" />
+</head>
+
+<body id="caixa">
+<div id="coin-slide">
+<a target="_blank">
+<img src='../img/a.jpg' />
+</a>
+
+<a href="img02_url" target="_blank">
+<img src='../img/b.jpg' />
+</a>
+
+
+</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#coin-slider').coinslider({ width: 50, height:31 });
+	});
+</script>
+
+</body>
+</html>

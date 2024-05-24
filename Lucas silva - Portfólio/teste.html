@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="author" content="Phone2b" />
+
+	<title>Coin-slider - Plugin jQuery : Ralph Almeida</title>
+</head>
+<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+<link rel="stylesheet" href="coin-slider-styles.css" type="text/css" />
+<body>
+<div id='coin-slider'>
+	<a href="img01_url" target="_blank">
+		<img src='img/b.jpg' />
+		<span>Descrição da imagem 1</span>
+	</a>
+	<a href="img02_url" target="_blank">
+		<img src='2.jpg' />		
+	</a>
+	<a href="img03_url" target="_blank">
+		<img src='img/a.jpg' />
+		<span>Descrição da imagem 3
+		</span>
+	</a>
+	<a href="img04_url" target="_blank">
+		<img src='4.jpg' />
+	</a>	
+</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#coin-slider').coinslider({ width: 500, height:313 });
+	});
+</script>
+
+
+</body>
+</html>
