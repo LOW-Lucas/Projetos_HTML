@@ -1,0 +1,24 @@
+﻿<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>Ex2</title>
+
+<script type="text/javascript">
+var emprestimo = parseFloat(prompt('digite o valor do empréstimo'));
+var parcelas = parseInt(prompt('digite o número de parcelas'));
+var juros = parseInt(prompt('digite a taxa mensal de juros'));
+var juros2 = emprestimo*(juros/100); 
+var parcelas3 = juros2*parcelas;
+var total = (emprestimo+juros2);
+var parcelas2 = total/parcelas;
+document.write("o valor de cada parcela será R$"+parcelas2);
+document.write("<br>");
+document.write("o valor total á pagar é R$"+total);
+</script>
+
+</head>
+<body>
+
+</body>
+</html>

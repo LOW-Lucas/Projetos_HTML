@@ -1,0 +1,28 @@
+﻿<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8" />
+<title>Ex1</title>
+
+<script type="text/javascript">
+var d = parseInt(prompt('digite a Distância a Percorrer'));
+var vc = parseFloat(prompt('digite o Valor do Combustível'));
+var l = parseFloat(prompt('digite a Quantidade de Km que o automovel corre por litro'));
+var dm = parseFloat(prompt('digite o valor da diaria do motorista'));
+var qt = (d*2);
+var lu = (l/d);
+var tc = (lu*vc);
+var da = (qt*0.20);
+var vt = (tc+da+dm);
+var luc = (1.3*vt); 
+document.write("O Valor total foi "+vt);
+document.write("<br>");
+document.write("O Valor total foi da empresa "+luc);
+
+</script>
+
+</head>
+<body>
+
+</body>
+</html>
