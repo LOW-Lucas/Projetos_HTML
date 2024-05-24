@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+ }
+  
+  #iron{
+background-color:red;	
+}
+ @font-face {
+    font-family: maiden;
+	src: url('../fonte/maiden.ttf');
+}
+p1{
+    font:50px maiden, gigi, georgia;
+}
+
+
+@font-face {
+    font-family: coca;
+	src: url('../fonte/cocacola.ttf');
+}
+p2{
+	background-color:green;
+    font:50px coca, gigi, georgia;
+}
+
+@font-face {
+    font-family: cola;
+	src: url('../fonte/LOKICOLA.ttf');
+}
+p3{
+	background-color:gold;
+    font:50px cola, gigi, georgia;
+}
+
+ @font-face {
+    font-family: scorpions;
+	src: url('../fonte/LADYSTAR.ttf');
+}
+p4{
+    font:50px scorpions, gigi, georgia;
+}
+
+@font-face {
+    font-family: gallaudet;
+	src: url('../fonte/GallaudetRegular.ttf');
+}
+
+p5{
+    font:50px gallaudet, gigi, georgia;
+}
+
+@font-face {
+    font-family: game;
+	src: url('../fonte/GameLogos.ttf');
+}
+
+p6{
+    font:50px game, gigi, georgia;
+}
+
+p7{
+    font:50px gigi, georgia;
+	color:blue;
+	background-color:black;
+	}
