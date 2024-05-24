@@ -1,0 +1,55 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:
+	
+}
+nav a{
+	font-size:30px;
+	color:white;
+	padding-left:80px;
+	text-decoration:none;
+	text-shadow:1px 2px 3px #ffffff
+}
+nav a:hover{
+	color:white;
+	text-shadow:1px 2px 3px #dede110;
+	transition:0.9s ease-out;
+}
+nav a:active{
+	color:orange;
+	
+}
+h1{
+	margin-top:-200px;
+	text-align:center;
+	font-size:80px;
+}
+#cla{
+	background-image:url("../img/all wall2.png");
+	background-size:100% 470px;
+	background-repeat:no-repeat;
+
+}
+#classe{
+	position:absolute;
+	text-indent:50px;
+	margin-left:22%;
+	text-align:justify;
+	font-size:20px;
+	margin-top:auto;
+	margin-right:10%;
+}
+#table{
+	margin-top:100px;
+    margin-left:-2%;
+    text-align:justify 
+}
+#clas{
+	margin-top:-430px;
+	width:90%;
+	height:500px;
+	margin-left:5%;
+	color:white;
+    background-color:rgba(0,0,128,0.4); 
+}

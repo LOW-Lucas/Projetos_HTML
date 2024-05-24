@@ -1,0 +1,302 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:
+	
+}
+#home{
+	position:absolute;
+	background-image:url(../img/home2.png);
+	background-size:100% ;
+	margin-top:240px;
+	height:540px;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	background-repeat:no-repeat;
+}
+header{
+	position:absolute;	
+	width:100%;
+	height:200px;
+	background-image:url(../img/logo.png);
+    background-size:100% 200px;
+	border-radius:15px;
+	background-color:black;
+}
+nav{
+	position:absolute;
+	width:100%;
+	height:40px;
+	margin-top:200px;
+	background-color:black;
+	border-radius:10px;
+	text-align:center;
+
+}
+nav a{
+	font-size:30px;
+	color:white;
+	padding-left:80px;
+	text-decoration:none;
+	text-shadow:1px 2px 3px #ffffff
+}
+nav a:hover{
+	color:white;
+	text-shadow:1px 2px 3px #dede110;
+	transition:0.9s ease-out;
+}
+nav a:active{
+	color:orange;
+	
+}
+#esq{
+	position:absolute;
+	width:10%;
+	height:600px;
+	background-color:black;
+	margin-top:200px;
+	border-radius:10px;
+}
+img{
+	width:100px;
+	padding-top:20px;
+	border-radius:10px;
+	
+}
+#dir{
+	position:absolute;
+	width:10%;
+	height:600px;
+	background-color:black;
+	margin-top:200px;
+	border-radius:10px;
+	margin-left:90%;
+}
+
+footer{
+	position:absolute;
+	width:80%;
+	height:20px;
+	margin-left:10%;
+	background-color:black;
+	border-radius:10px;
+	margin-top:780px;
+	color:#ffffff;
+	text-align:center;
+	text-align:right;
+
+}
+article{
+	position:absolute;
+	width:70%;
+	margin-left:15%;
+    height:400px;
+    margin-top:300px;
+    background-color:black;
+    border-radius:10px;	
+	margin-right:15px
+}
+#b1{
+	background-image:url("../img/map home.png");
+	background-size:100% ;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+
+}
+h1{
+	text-align:center;
+	font-size:80px;
+}
+p{
+	text-indent:50px;
+	margin-left:20px;
+	margin-right:20px;
+	font-size:20px;
+	text-align:justify;
+}
+#h{
+	width:90%;
+	height:auto;
+	margin-left:5%;
+	color:white;
+    background-color:rgba(0,0,128,0.4); 
+}
+#x{
+	width:100%;
+	height:400px;
+	border-radius:10px;
+	border:nome;
+}
+#b2{
+	background-image:url("../img/modo jogo.png");
+	background-size:100% ;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+
+}
+#b3{
+	background-image:url("../img/jogabilidade.png");
+	background-size:100% ;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+
+}
+map{
+	position:absolute;
+	width:10%;
+	height:200px;
+	background-image:url("../img/map home.png");
+	margin-top:260px;
+}
+
+#medc{
+	width:22%;
+	margin-top:-40;
+}
+#classe{
+	position:absolute;
+	text-indent:50px;
+	margin-left:22%;
+	text-align:justify;
+	font-size:20px;
+	margin-top:30px;
+	margin-right:10%;
+}
+#table{
+    margin-left:-2%;
+    text-align:justify 
+}
+#clas{
+	width:90%;
+	height:540px;
+	margin-left:5%;
+	color:white;
+    background-color:rgba(0,0,128,0.4); 
+}
+#p1{
+	position:absolute;
+	text-indent:50px;
+	margin-left:20%;
+	text-align:left;
+	font-size:20px;
+	margin-top:-200px;
+	margin-right:10%;
+}
+#voltar{
+	margin-top:60px;
+	margin-left:700px;
+	position:absolute
+}
+#voltar a{
+	font-size:30px;
+	color:white;
+	padding-left:80px;
+	text-decoration:none;
+	text-shadow:1px 2px 3px #ffffff
+}
+#voltar a:hover{
+	color:white;
+	text-shadow:1px 2px 3px #dede110;
+	transition:0.9s ease-out;
+}
+#voltar a:active{
+	color:orange;
+	
+}
+#med{
+	background-image:url("../img/medic wall.jpg");
+	background-size:100%; 
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	
+}
+#me{
+	width:22%;
+	margin-top:;
+}
+#scout{
+	background-image:url("../img/scout wall.png");
+	background-size:100%; 
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	
+}
+#sc{
+	width:22%;
+	margin-top:-40;
+}
+#sol{
+	background-image:url("../img/soldier wall.png");
+	background-size:100%; 
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	
+}
+#so{
+	width:17%;
+	margin-left:30px;
+	margin-top:-40px;
+}
+
+#pyr{
+	background-image:url("../img/pyro wall.png");
+	background-size:100%; 
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	
+}
+#py{
+	width:20%;
+}
+#dem{
+	background-image:url("../img/demoman wall.png");
+	background-size:100%; 
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	
+}
+#de{
+	width:20%;
+}
+#hea{
+	background-image:url("../img/heavy wall.png");
+	background-size:100%; 
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	
+}
+#he{
+	width:20%;
+}
+#eng{
+	background-image:url("../img/engineer wall.png");
+	background-size:100%; 
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	
+}
+#en{
+	margin-left:50px;
+	width:10%;
+}
+#sni{
+	background-image:url("../img/sniper wall.png");
+	background-size:100%; 
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	
+}
+#sn{
+	width:20%;
+}
+#spy{
+	background-image:url("../img/spy wall.png");
+	background-size:100%; 
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	
+}
+#sp{
+	width:20%;
+}
